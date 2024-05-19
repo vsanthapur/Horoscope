@@ -1,0 +1,32 @@
+/* page.css I used gpt for this*/
+@keyframes rainbow {
+    0%, 100% {
+      color: red;
+    }
+    14% {
+      color: orange;
+    }
+    28% {
+      color: yellow;
+    }
+    42% {
+      color: green;
+    }
+    57% {
+      color: blue;
+    }
+    71% {
+      color: indigo;
+    }
+    85% {
+      color: violet;
+    }
+  }
+  
+  .flashing-rainbow {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin-bottom: 1rem; 
+    animation: rainbow 1s infinite; 
+  }
+  
